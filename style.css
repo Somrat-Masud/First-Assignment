@@ -42,18 +42,115 @@ body{
     font-size: 20px;
     font-weight: 700;
    }
- 
-.profile-picture{
-        
-        
-    }
     .banner{
-        
+        width: 635px;
+        height: 800px;
     }
-    text-greeting
-    {
-    .display: flex;
-    width: 708px;
-    flex-direction: column;
-    flex-shrink: 0;
-    }
+
+    /* Bonus Section */
+.greeting
+{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    
+}
+.greeting-primariy
+{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    width: 594;
+}
+.backgrount-img{
+
+}
+.img
+{
+    display: flex;
+    text-align: center;
+    margin-left: 280px;
+    
+    
+}
+.img-p{
+    width: 310px;
+    height: 428px;
+    margin-top: 110px;
+    
+}
+
+.img-1{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    background-color: #fdccd5;
+    margin-top: 30px;
+}
+.img-2{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    background-color: #fdccd5;
+    margin-top: 30px;
+}
+
+
+.img-3{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    
+    
+    background-color:#0597A026;
+    margin-top: 30px;
+}
+.img-link
+{
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    text-decoration-line: underline;
+}
+
+/*Main section Hot dial style*/
+.Hot-dial{
+    background-color: #f7edef;
+    margin-top: 50px;
+   
+}
+.section-main
+{
+    display: inline;
+    align-items: center;
+    
+}
+.section-description
+{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px; 
+    margin-top: 50px;
+  
+}
+.spn
+{
+   color: #E55473;  
+}
+.section-title
+{
+    color: #272727;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 80px;
+    
+}
+
+.Sign-Up
+{
+    text-align: center;
+}
+
+.alada{
+    display: flex;
+    margin: 0px 250px;
+    justify-content: space-between;
+}
