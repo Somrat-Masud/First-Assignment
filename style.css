@@ -1,0 +1,59 @@
+body{
+    font-family: Lato;
+}
+/*header style*/
+.header
+{
+    width: 1920px;
+    height: 850px;
+    background: rgba(229, 84, 115, 0.10);
+}
+.banner-content
+    {
+    display: flex;
+    margin: 0px 200px;
+    justify-content: space-between;
+    }
+.banner-title
+   {
+    display: flex;
+    width: 708px;
+    flex-direction: column;
+   }
+.banner-greeting
+   {
+    color: #272727;
+    font-size: 80px;
+    width: 708px;
+   }
+  
+.text-primariy
+   {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+   }
+.btn-primary
+   {
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+   }
+ 
+.profile-picture{
+        
+        
+    }
+    .banner{
+        
+    }
+    text-greeting
+    {
+    .display: flex;
+    width: 708px;
+    flex-direction: column;
+    flex-shrink: 0;
+    }
