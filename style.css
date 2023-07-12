@@ -41,6 +41,7 @@ body{
     color: #FFF;
     font-size: 20px;
     font-weight: 700;
+    border-color: #FFF;
    }
     .banner{
         width: 635px;
@@ -153,4 +154,101 @@ body{
     display: flex;
     margin: 0px 250px;
     justify-content: space-between;
+}
+/*instagram section*/
+.instagram
+{
+    width: 1780px;
+    height: 440px;
+}
+.instagram-title
+{
+    margin-top: 88px;
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.instagram-description
+{
+ color: #27272799;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+flex-direction: column;
+}
+.instagram-img{
+margin-left: 230px;
+}
+.instagram-img-2 {
+    margin-left: 10px;
+}
+.instagram-img-3 {
+    margin-left: 10px;
+}
+.instagram-img-4 {
+    margin-left: 10px;
+}
+/*Get The Latest Deals*/
+.section-box{
+    width: 1410px;
+    height: 440px;
+    display: flex;
+    justify-content: center;
+     background-image: url("./flower-shop-assignment/FlowerAsset/Rectangle-9.png");
+     margin-left: 230px;
+     margin-top: 85px;
+     margin-bottom: 58px;;
+     
+
+}
+.box-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 58px;
+
+}
+.content-description{
+    color: #27272799;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 400;
+}
+.input{
+    border-radius: 8px;
+    background: #FFF;
+    width: 540px;
+    height: 64px;
+    border-color: #FFF;
+}
+
+   
+   
+/**Footer section**/
+
+
+.footer{
+    background: #111010;
+    width: 1920px;
+    height: 449px;
+    padding-top: 80px; 
+}
+.footer-title{
+    color: #FFF;
+    font-size: 48px;
+    text-align: center;
+    }
+.footer-content{
+color: rgba(255, 255, 255, 0.90);
+text-align: center;
+font-size: 18px;
+justify-content: center;
+flex-direction: column;
+}
+.footer-bottm
+{
+    text-align: center;
+    color:#f7edef ;
 }
