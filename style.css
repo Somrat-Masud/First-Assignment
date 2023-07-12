@@ -72,21 +72,25 @@ body{
 }
 .about-content
 {
-    color: rgba(39, 39, 39, 0.60);
+    color: #27272799;
     text-align: center;
     font-size: 18px;
-    width: 594;
+    display: flex;
+    width: 594px;
+    flex-direction: column;
+    margin-left: 620px;
+    margin-top: 18px;
 }
 .backgrount-img{
 
 }
 .img
 {
-    display: flex;
+    display:flex;
     text-align: center;
     margin-left: 280px;
     
-    
+
 }
 .img-p{
     width: 310px;
@@ -123,14 +127,20 @@ body{
     text-align: center;
     font-size: 24px;
     text-decoration-line: underline;
+    margin-top: 300px;
 }
 
+.link-content{
+
+}
 /*Main section Hot dial style*/
-.Hot-dial{
+
+
+.section-dial{
     width: 1922px;
     height: 540px;
     background-color: #f7edef;
-    margin-top: 50px;
+    margin-top: 80px;
     padding-top: 48px;
     
   
@@ -139,6 +149,8 @@ body{
 {
     display: inline;
     align-items: center;
+    margin-top: 70px;
+    margin-left: 120px;
     
     
 }
@@ -147,8 +159,11 @@ body{
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px; 
-    margin-top: 50px;
-  
+    margin-top: 20px;
+    display: flex;
+    width: 594px;
+    flex-direction: column;
+    
 }
 .spn
 {
@@ -168,10 +183,13 @@ body{
     text-align: center;
 }
 
-.alada{
+.section-primary{
     display: flex;
     margin: 0px 250px;
     justify-content: space-between;
+}
+.section-dial-img{
+    margin-right: 230px;
 }
 /*instagram section*/
 .instagram
@@ -190,13 +208,18 @@ body{
 .instagram-description
 {
  color: #27272799;
-text-align: center;
-font-size: 18px;
+display: flex;
+ width: 594px;
+ text-align: center;
+ flex-direction: column;
+ margin-left: 600px;
+font-size: 20px;
 font-weight: 400;
-flex-direction: column;
 }
 .instagram-img{
 margin-left: 230px;
+padding-top: 38px;
+
 
 }
 .instagram-img-2 {
@@ -214,7 +237,7 @@ margin-left: 230px;
     height: 440px;
     display: flex;
     justify-content: center;
-     background-image: url("./flower-shop-assignment/FlowerAsset/Rectangle-9.png");
+     background-image: url("././FlowerAsset/Rectangle-9.png");
      margin-left: 230px;
      margin-top: 125px;
      margin-bottom: 58px;;
